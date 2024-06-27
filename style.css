@@ -109,3 +109,27 @@ img {
 a:hover {
   background-color: #d6fc71;
 }
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #7659f5;
+  color: white;
+  text-align: center;
+}
+
+.eventCarusel {
+  display: flex;
+  background-color: #474165;
+}
+
+.arrowBtns {
+  display: flex;
+  margin: 15px;
+}
+
+.arrowBtns button {
+  height: 80px;
+}
