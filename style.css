@@ -26,6 +26,17 @@ header {
 header a {
   color: black;
   text-decoration: none;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+button {
+  font-size: 36px;
+  font-family: "Kanit", sans-serif;
+  background-color: #d6fc71;
+  padding: 10px;
+  border: #d6fc71;
+  border-radius: 5px;
 }
 
 #createEvent {
@@ -93,4 +104,8 @@ img {
   height: 300px;
   border: solid rgb(255, 255, 255);
   border-radius: 10px;
+}
+
+a:hover {
+  background-color: #d6fc71;
 }
